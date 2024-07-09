@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(47, 119, 252) 100%);
+}
+.container .search{
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    top: 12rem;
+}
+.search input{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-left:1px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.search button{
+    position: absolute;
+    top: 0.1%;
+    right: -16%;
+    height: 99%;
+    width: 15%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+.search button:hover{
+    background: gray;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: -32rem;
+    height: 55%;
+    width: 70rem; 
+    background: #1034A6;
+    color: #fff;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+}
+.box .img-box{
+    height: 120px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+.box .img-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.info{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: -9px;
+    height: 90%;
+}
+.info h2{
+    padding: 5px;
+    margin: 5px;
+}
+.info p{
+    padding: 5px;
+    margin: 5px;
+}
+.info ul{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 4px;
+}
+.info ul li{
+    list-style: none;
+    margin-top: 3px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 130px;
+}
+.info ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1034A6;
+    margin: 7px;
+}
+.info ul li a:hover{
+    font-size: 1.2rem;
+    color: azure;
+}
+#repos{
+    margin-top: 10px;
+}
+#repos .repo{
+    background-color: rgb(41, 4, 145);
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
